@@ -30,6 +30,6 @@ if __name__=='__main__':
     print('Bem vindo ao GPT :)')
     mensagens = []
     while True:
-        input_usuario = input('texto: ')
+        input_usuario = input('Digite Algo: ')
         mensagens.append[{'role': 'user', 'content': input_usuario}]
         mensagens = geracao_texto(mensagens)
